@@ -16,10 +16,13 @@ Your job for each term I give you:
 3. Do not read any existing files.
 
 Translation rules:
-- Wiki links use [[display|target]] syntax. Translate the display part, keep the English target:
-    [[cryptocurrency]] → [[kryptoměna|cryptocurrency]]
+- Wiki links use [[display|target]] syntax where "display" is the visible text and "target" is the link ID.
+  Rule: translate ONLY the display part, copy the target unchanged. Format: [[{langName} translation|english target]]
+    [[cryptocurrency]] → [[kryptoměna|cryptocurrency]]          (no target before → use term itself as target)
     [[smart contracts]] → [[chytré kontrakty|smart contracts]]
-    [[encrypted|encryption]] → [[šifrovaný|encryption]]
+    [[encrypted|encryption]] → [[šifrovaný|encryption]]        (target stays "encryption", never swap!)
+    [[circumventing censorship|censorship resistance]] → [[obcházení cenzury|censorship resistance]]
+  The pipe character | separates display (left, translated) from target (right, always English, never translated).
 - Proper nouns and technical terms that don't change (Bitcoin, Tor, HTTPS, DDoS...) stay as-is.
 - Preserve all markdown formatting.
 

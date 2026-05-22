@@ -81,6 +81,7 @@
           "model": { "type": "string" },
           "translated_at": { "type": "string" },
           "name": { "type": "string" },
+          "type": { "type": "string" },
           "description": { "type": "string" }
         },
         "additionalProperties": false
