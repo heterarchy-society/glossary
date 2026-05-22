@@ -1,3 +1,20 @@
+[glossary]
+description = "A reference glossary for the parallel society."
+
+[glossary.entry_style]
+structure = """
+Each entry has three paragraphs with distinct roles:
+1. What it is — definition, origin of the term, core mechanism. Concise, no unnecessary context.
+2. How it works — concrete examples, implementations, details. Where it manifests in practice.
+3. Wider stakes — relation to the parallel society, implications, why it belongs in this glossary. Does not summarize but opens outward.
+"""
+tone = """
+Written from the perspective of people actively building alternatives to centralized power.
+States and corporations are implicitly adversaries; encryption, decentralization, and autonomy are tools of emancipation.
+Factual and informative, not agitational. Facts speak for themselves.
+Use wiki links liberally to connect related terms: [[term name]] or [[display text|term-id]].
+"""
+
 [languages]
 default = "cs"
 
