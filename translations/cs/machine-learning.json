@@ -1,0 +1,8 @@
+{
+  "source_hash": "87264fc635cd684e",
+  "model": "gpt-5.5",
+  "translated_at": "2026-05-22T08:16:12.900Z",
+  "slug": "strojove-uceni",
+  "name": "Strojové učení",
+  "description": "Strojové učení (ML) je odvětví [[umělé inteligence|artificial intelligence]], které se zaměřuje na vývoj systémů schopných učit se a zlepšovat se ze zkušenosti, aniž by byly explicitně naprogramovány. V kontextu paralelních struktur a decentralizovaných systémů se ML vyvinulo tak, že zahrnuje přístupy distribuující výpočty a učení napříč více uzly nebo účastníky, namísto spoléhání na centralizované zpracování. Tento decentralizovaný přístup souzní s principy [[soukromí|privacy]], [[bezpečnosti|security]] a odolnosti vůči centrální kontrole.\n\nKlíčovým vývojem v decentralizovaném ML je [[federované učení|Federated Learning]], které umožňuje více stranám spolupracovat na trénování modelů strojového učení a zároveň ponechávat jejich data soukromá a lokalizovaná. Tento přístup je obzvlášť relevantní pro paralelní struktury, protože umožňuje vytvářet robustní systémy učení, které nevyžadují centralizovaný sběr ani zpracování dat, čímž zachovávají individuální soukromí a autonomii a zároveň těží z kolektivní inteligence.\n\nPrůnik ML s technologií [[blockchainu|blockchain]] a dalšími decentralizovanými systémy vedl k inovativním aplikacím v oblastech, jako je AI chránící soukromí, distribuované rozhodování a autonomní organizace ([[DAO|DAOs]]). Tyto systémy ukazují, jak lze strojové učení implementovat způsoby, které podporují, nikoli podkopávají individuální suverenitu a soukromí, což z něj činí cenný nástroj pro vytváření paralelních struktur fungujících nezávisle na tradičních centralizovaných institucích."
+}

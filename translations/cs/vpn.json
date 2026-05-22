@@ -1,0 +1,8 @@
+{
+  "source_hash": "f86873a7529454e3",
+  "model": "gpt-5.5",
+  "translated_at": "2026-05-22T08:29:57.375Z",
+  "slug": "virtualni-privatni-sit-vpn",
+  "name": "Virtuální privátní síť (VPN)",
+  "description": "Virtuální privátní síť (VPN) je technologie, která šifruje internetový provoz a směruje jej přes vzdálené servery, čímž skrývá skutečnou IP adresu a geografickou polohu uživatele před [[síťovým dohledem|mass surveillance]]. VPN vytvářejí [[šifrovaný|encryption]] tunel mezi zařízením uživatele a VPN serverem a brání poskytovatelům internetových služeb, síťovým operátorům a dalším zprostředkovatelům v monitorování nebo zasahování do online aktivit uživatele.\n\nVPN slouží jako základní nástroj v sadě nástrojů pro soukromí a umožňují uživatelům obcházet síťovou cenzuru, vyhýbat se geografickým omezením a udržovat určitou míru anonymity online. V kombinaci s dalšími technologiemi na ochranu soukromí, jako jsou [[Tor]], [[šifrování|encryption]] a platby v [[kryptoměnách|cryptocurrency]], VPN přispívají k vytváření paralelních komunikačních infrastruktur odolných vůči dohledu a kontrole.\n\nV kontextu paralelních struktur poskytují self-hostované VPN a decentralizované VPN sítě alternativy k tradičním centralizovaným službám. Tato řešení umožňují komunitám budovat vlastní komunikační kanály chránící soukromí, vytvářet [[mesh sítě|mesh networks]] a udržovat konektivitu i při síťových omezeních nebo monitorování."
+}

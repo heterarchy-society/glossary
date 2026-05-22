@@ -1,0 +1,8 @@
+{
+  "source_hash": "6f4ac8cfe3b6e8f3",
+  "model": "gpt-5.5",
+  "translated_at": "2026-05-22T08:23:15.903Z",
+  "slug": "proof-of-work-pow",
+  "name": "Proof of Work (PoW)",
+  "description": "Proof of Work (PoW) je [[mechanismus konsenzu|consensus mechanism]] a systém prevence spamu, který byl poprvé vyvinut k boji proti e-mailovému spamu a později přizpůsoben pro použití v kryptoměnách, nejvýrazněji v [[Bitcoinu|Bitcoin]]. Vyžaduje, aby účastníci (často nazývaní těžaři) vynakládali výpočetní úsilí na řešení složitých matematických úloh za účelem ověřování transakcí a vytváření nových bloků v blockchainu.\n\nV systému PoW těžaři soutěží v řešení kryptografické hashovací funkce s určitou úrovní obtížnosti. První těžař, který najde řešení splňující požadovaná kritéria, jej rozesílá do sítě k ověření. Pokud je platné, nový blok je přidán do blockchainu a úspěšný těžař je odměněn nově vytvořenou kryptoměnou a transakčními poplatky. Tento proces slouží několika účelům: zabezpečuje síť proti útokům, distribuuje novou měnu a poskytuje decentralizovanou metodu dosažení konsenzu o stavu účetní knihy.\n\nAčkoli se PoW ukázal jako robustní a bezpečný systém pro kryptoměny, čelí kritice kvůli vysoké spotřebě energie a potenciálu k centralizaci, protože těžba se stává stále náročnější na zdroje. Tyto obavy vedly k vývoji alternativních mechanismů konsenzu, jako je [[Proof of Stake]], a ke zkoumání energeticky účinnějších algoritmů PoW. Navzdory těmto výzvám zůstává PoW základním konceptem v kryptoměnovém ekosystému a podpírá bezpečnost a provoz mnoha blockchainových sítí."
+}

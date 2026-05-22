@@ -1,0 +1,8 @@
+{
+  "source_hash": "d52c8c6174b05ba2",
+  "model": "gpt-5.5",
+  "translated_at": "2026-05-22T08:23:36.192Z",
+  "slug": "pseudonymita",
+  "name": "Pseudonymita",
+  "description": "Pseudonymita je stav fungování pod pseudonymem (falešným jménem nebo identifikátorem) při zachování konzistentní identity v čase. Na rozdíl od [[anonymity|anonymity]], kdy je aktér zcela neznámý, pseudonymita umožňuje jednotlivcům budovat reputaci, udržovat vztahy a zapojovat se do dlouhodobých interakcí a zároveň chránit svou skutečnou identitu. Tento koncept je základní pro mnoho systémů chránících [[soukromí|privacy]] a digitálních komunit.\n\nV digitálních prostorech pseudonymita umožňuje uživatelům účastnit se veřejného diskurzu, podnikat nebo budovat online přítomnost, aniž by odhalovali svou identitu ve fyzickém světě. Trvalost pseudonymních identit umožňuje odpovědnost a budování důvěry při zachování soukromí. Mezi významné příklady patří [[Satoshi Nakamoto]], pseudonymní tvůrce Bitcoinu, a nespočet vývojářů, spisovatelů a aktivistů, kteří působí pod konzistentními pseudonymy.\n\nPseudonymita úzce souvisí s koncepty, jako jsou [[reputační systémy|reputation systems]], [[digitální identita|digital identity]] a [[technologie posilující soukromí|privacy-enhancing technologies]]. Je obzvlášť důležitá v sítích [[kryptoměn|cryptocurrency]], kde uživatelé fungují prostřednictvím pseudonymních adres, a v online komunitách, kde záleží na reputaci a konzistentní identitě. Technologie jako [[digitální podpisy|digital signatures]] a [[důkazy s nulovou znalostí|zero-knowledge proofs]] pomáhají uživatelům prokazovat vlastnictví svých pseudonymních identit, aniž by odhalovali své identity ve skutečném světě."
+}

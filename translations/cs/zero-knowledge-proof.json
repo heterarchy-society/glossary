@@ -1,0 +1,8 @@
+{
+  "source_hash": "072fbe109bcd847d",
+  "model": "gpt-5.5",
+  "translated_at": "2026-05-22T08:31:02.784Z",
+  "slug": "dukaz-s-nulovou-znalosti-zkp",
+  "name": "Důkaz s nulovou znalostí (ZKP)",
+  "description": "Důkaz s nulovou znalostí je [[kryptografická|cryptography]] metoda, která umožňuje jedné straně (dokazujícímu) prokázat druhé straně (ověřovateli), že tvrzení je pravdivé, aniž by odhalila jakékoli informace nad rámec platnosti samotného tvrzení. Tento průlomový koncept umožňuje ověřování dat nebo oprávnění při zachování úplného soukromí podkladových informací, což z něj činí základní kámen moderních technologií [[soukromí|privacy]].\n\nKoncept splňuje tři klíčové vlastnosti: úplnost (pokud je tvrzení pravdivé, poctivý ověřovatel bude přesvědčen), soundness (pokud je tvrzení nepravdivé, žádný podvádějící dokazující nemůže přesvědčit poctivého ověřovatele) a nulovou znalost (pokud je tvrzení pravdivé, ověřovatel se nedozví nic kromě skutečnosti, že tvrzení je pravdivé). Například lze prokázat, že je člověk starší 18 let, aniž by odhalil svůj skutečný věk, nebo prokázat vlastnictví prostředků, aniž by odhalil zůstatek účtu.\n\nDůkazy s nulovou znalostí našly řadu uplatnění v technologii [[blockchainu|blockchain]], systémech [[digitální identity|digital identity]] a protokolech [[chránících soukromí|privacy-preserving]]. Používají se v systémech [[kryptoměn|cryptocurrency]] pro soukromé transakce, v autentizačních systémech, kde uživatelé mohou prokázat svá oprávnění bez odhalení citlivých dat, a v různých dalších scénářích, kde je zásadní ověření bez zveřejnění. Mezi významné implementace patří [[zk-SNARKs]] a [[zk-STARKs]], což jsou specifické typy důkazů s nulovou znalostí optimalizované pro různé případy použití."
+}

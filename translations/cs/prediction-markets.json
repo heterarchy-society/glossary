@@ -1,0 +1,8 @@
+{
+  "source_hash": "bdfe8992845bc8d5",
+  "model": "gpt-5.5",
+  "translated_at": "2026-05-22T08:22:11.974Z",
+  "slug": "predikcni-trhy",
+  "name": "Predikční trhy",
+  "description": "Predikční trhy jsou platformy, kde mohou uživatelé obchodovat s výsledky budoucích událostí, čímž fakticky vytvářejí tržní systém předpovídání. V kryptoměnovém prostoru umožňují decentralizované predikční trhy jako *Polymarket* a *Augur* uživatelům sázet na výsledky reálných událostí pomocí kryptoměn, přičemž tržní ceny odrážejí kolektivní odhad pravděpodobnosti, že tyto události nastanou.\n\nKoncept predikčních trhů existuje po staletí, ale blockchainová technologie umožnila skutečně decentralizované a [[odolné vůči cenzuře|censorship resistance]] implementace. Tyto platformy obvykle používají [[chytré kontrakty|smart contracts]] k automatickému vypořádání obchodů na základě předem definovaných výsledků, čímž odstraňují potřebu důvěryhodných zprostředkovatelů. Uživatelé mohou vytvářet trhy pro různé události od politických voleb a sportovních výsledků až po ekonomické ukazatele a technologický vývoj.\n\nPredikční trhy jsou považovány za cenné nástroje pro agregaci informací a vytváření přesných předpovědí, protože motivují účastníky sázet podle jejich skutečných přesvědčení, nikoli osobních zkreslení. V rámci ekosystému [[kryptoměn|cryptocurrency]] představují důležitou aplikaci principů [[decentralizovaných financí|decentralized finance]] (DeFi), která kombinuje finanční trhy s objevováním informací a zároveň prostřednictvím blockchainové technologie zachovává soukromí uživatelů a odolnost vůči cenzuře."
+}
