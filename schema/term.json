@@ -81,8 +81,7 @@
         "type": "object",
         "properties": {
           "name": { "type": "string" },
-          "email": { "type": "string" },
-          "avatar": { "type": "string" }
+          "gh_username": { "type": "string" }
         }
       }
     },
