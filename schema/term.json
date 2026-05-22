@@ -80,6 +80,7 @@
           "source_hash": { "type": "string" },
           "model": { "type": "string" },
           "translated_at": { "type": "string" },
+          "slug": { "type": "string", "pattern": "^[a-z0-9\\-]+$" },
           "name": { "type": "string" },
           "type": { "type": "string" },
           "description": { "type": "string" }
