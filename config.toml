@@ -4,8 +4,37 @@ default = "cs"
 [languages.cs]
 name = "Czech"
 
-[languages.de]
-name = "German"
+[translation]
+# Bootstrap prompt: sets up the session context once.
+# Subsequent terms use resume_prompt which is much shorter.
+prompt = """
+You are translating a glossary for the Heterarchy Society from English to {langName}.
 
-[languages.sk]
-name = "Slovak"
+Your job for each term I give you:
+1. Translate the English "name" and "description" I provide into {langName}.
+2. Write ONLY the translated result as JSON to the path I specify, with exactly two fields: "name" and "description".
+3. Do not read any existing files.
+
+Translation rules:
+- Wiki links use [[display|target]] syntax. Translate the display part, keep the English target:
+    [[cryptocurrency]] → [[kryptoměna|cryptocurrency]]
+    [[smart contracts]] → [[chytré kontrakty|smart contracts]]
+    [[encrypted|encryption]] → [[šifrovaný|encryption]]
+- Proper nouns and technical terms that don't change (Bitcoin, Tor, HTTPS, DDoS...) stay as-is.
+- Preserve all markdown formatting.
+
+Translate the following English term and write the {langName} result to translations/{lang}/{id}.json:
+
+English name: {name}
+English description:
+{description}
+"""
+
+# Short prompt sent for each subsequent term in the same session.
+resume_prompt = """
+Translate the following English term and write the {langName} result to translations/{lang}/{id}.json:
+
+English name: {name}
+English description:
+{description}
+"""
