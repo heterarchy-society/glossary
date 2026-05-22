@@ -9,7 +9,7 @@
     "test": "atlas validate"
   },
   "dependencies": {
-    "@heterarchy/atlas": "file:../atlas"
+    "@heterarchy/atlas": "github:heterarchy-society/atlas"
   },
   "license": "MIT"
 }

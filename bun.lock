@@ -5,12 +5,12 @@
     "": {
       "name": "heterarchy-glossary",
       "dependencies": {
-        "@heterarchy/atlas": "file:../heterarchy.fyi/atlas",
+        "@heterarchy/atlas": "github:heterarchy-society/atlas",
       },
     },
   },
   "packages": {
-    "@heterarchy/atlas": ["@heterarchy/atlas@file:../heterarchy.fyi/atlas", { "dependencies": { "ajv": "^8.17.1", "ajv-formats": "^3.0.1", "gray-matter": "^4.0.3", "smol-toml": "^1.6.1" }, "bin": { "atlas": "./bin/atlas.js" } }],
+    "@heterarchy/atlas": ["@heterarchy/atlas@github:heterarchy-society/atlas#8b82cdd", { "dependencies": { "ajv": "^8.17.1", "ajv-formats": "^3.0.1", "gray-matter": "^4.0.3", "smol-toml": "^1.6.1" }, "bin": { "atlas": "./bin/atlas.js" } }, "heterarchy-society-atlas-8b82cdd", "sha512-I6r5Op9ZoxhvNKU7dd/paj9TVcbkn0Xfp2rDdHOdhO+UQx20BM4lP5DHtekBodWnme9i3N/JPvCjLwVLJ7M+rw=="],
 
     "ajv": ["ajv@8.20.0", "", { "dependencies": { "fast-deep-equal": "^3.1.3", "fast-uri": "^3.0.1", "json-schema-traverse": "^1.0.0", "require-from-string": "^2.0.2" } }, "sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA=="],
 
