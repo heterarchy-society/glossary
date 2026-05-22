@@ -2,6 +2,9 @@
 
 A curated glossary of terms for [The Heterarchy Society](https://heterarchy.cz). Source files are markdown with YAML frontmatter; a build script compiles them into static JSON deployed via GitHub Pages.
 
+- **Browse:** [heterarchy.cz/glosar](https://heterarchy.cz/glosar)
+- **API / bundle:** [glossary.heterarchy.fyi](http://glossary.heterarchy.fyi/)
+
 ## Adding or editing terms
 
 Each term lives in `glossary/{id}.md`. The filename (without `.md`) becomes the term's ID — use lowercase kebab-case (e.g. `zero-knowledge-proof.md`).
