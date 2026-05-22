@@ -1,0 +1,8 @@
+{
+  "source_hash": "2dbfdacf06559a3a",
+  "model": "gpt-5.5",
+  "translated_at": "2026-05-22T08:02:52.856Z",
+  "slug": "digitalni-identita",
+  "name": "Digitální identita",
+  "description": "Digitální identita je soubor atributů a tvrzení, které reprezentují entitu v digitálních prostředích a umožňují autentizaci a interakci bez odhalování zbytečných osobních informací. V kontextu paralelních struktur digitální identita zdůrazňuje [[sebesuverenitu|self-sovereignty]], kdy si jednotlivci zachovávají úplnou kontrolu nad svými identitními daty, aniž by se spoléhali na centralizované autority nebo tradiční poskytovatele identity.\n\nCypherpunkový přístup k digitální identitě využívá kryptografická primitiva, jako je [[kryptografie s veřejným klíčem|public key cryptography]], [[důkazy s nulovou znalostí|zero-knowledge proofs]] a [[digitální podpisy|digital signatures]], k umožnění bezpečných, pseudonymních interakcí. Tyto technologie umožňují jednotlivcům prokazovat konkrétní atributy o sobě (věk, členství, oprávnění), aniž by odhalovali svou plnou identitu, v souladu s principem minimálního odhalení a zachování maximálního soukromí.\n\nSystémy digitální identity postavené na sítích [[blockchainu|blockchain]] a peer-to-peer protokolech umožňují uživatelům vytvářet více kontextových identit, spravovat svou reputaci napříč různými prostředími a účastnit se [[DAO]] a dalších paralelních struktur bez tradičních dokladů totožnosti. Tento přístup podporuje odolnost vůči dohledu, umožňuje obchod chránící soukromí a dovoluje vytváření autonomních komunit nezávislých na starších identitních systémech."
+}

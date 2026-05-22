@@ -1,0 +1,8 @@
+{
+  "source_hash": "18ccddbb1233234c",
+  "model": "gpt-5.5",
+  "translated_at": "2026-05-22T08:03:27.020Z",
+  "slug": "digitalni-podpis",
+  "name": "Digitální podpis",
+  "description": "Digitální podpisy jsou kryptografické důkazy, které umožňují autentizaci zpráv, ověření integrity a nepopiratelnost bez spoléhání na důvěryhodné třetí strany. Pomocí [[kryptografie s veřejným klíčem|public key cryptography]] podepisující vytvoří svým soukromým klíčem nepadělatelnou matematickou pečeť, kterou může kdokoli ověřit pomocí odpovídajícího veřejného klíče, čímž prokáže jak původ zprávy, tak skutečnost, že nebyla změněna.\n\nTato technologie tvoří základ autonomních digitálních interakcí tím, že jednotlivcům umožňuje činit ověřitelné závazky a podepisovat zprávy, které mají stejnou váhu jako tradiční podpisy, avšak s matematickou, nikoli institucionální oporou. V paralelních strukturách digitální podpisy umožňují závazné dohody, [[bezpečnou komunikaci|secure communications]] a reputační systémy bez potřeby autentizačních autorit.\n\nKromě prostého podepisování dokumentů umožňují digitální podpisy pokročilé kryptografické protokoly, jako jsou slepé podpisy pro [[soukromé volební systémy|private voting systems]], kruhové podpisy pro [[anonymní skupinovou autentizaci|anonymous group authentication]] a agregované podpisy pro efektivní kolektivní podepisování. Tato primitiva pohánějí řadu aplikací chránících soukromí a paralelních systémů, v nichž mohou jednotlivci interagovat s kryptografickou jistotou a zároveň si zachovat svou autonomii."
+}

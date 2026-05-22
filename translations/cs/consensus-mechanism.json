@@ -1,0 +1,8 @@
+{
+  "source_hash": "7c14d5514b1a263e",
+  "model": "gpt-5.5",
+  "translated_at": "2026-05-22T07:55:53.390Z",
+  "slug": "mechanismus-konsenzu",
+  "name": "Mechanismus konsenzu",
+  "description": "Mechanismus konsenzu je protokol odolný vůči chybám používaný v systémech [[blockchainu|blockchain]] a distribuovaných výpočtech k dosažení shody na jediné hodnotě dat nebo stavu sítě mezi distribuovanými procesy či multiagentními systémy. V kontextu kryptoměn a blockchainové technologie mechanismy konsenzu zajišťují, že se všechny uzly v síti shodnou na platnosti transakcí a pořadí, v jakém jsou přidávány do účetní knihy.\n\nMezi nejznámější mechanismy konsenzu patří [[Proof of Work (PoW)]], používaný [[Bitcoinem|Bitcoin]], a [[Proof of Stake (PoS)]], využívaný [[Ethereem|Ethereum]] a dalšími kryptoměnami. Mezi další významné mechanismy patří *Delegated Proof of Stake (DPoS)*, *Practical Byzantine Fault Tolerance (PBFT)* a *Proof of Authority (PoA)*. Každý mechanismus má vlastní kompromisy z hlediska bezpečnosti, decentralizace, škálovatelnosti a energetické účinnosti.\n\nMechanismy konsenzu hrají zásadní roli při řešení [[problému byzantských generálů|Byzantine fault]] v distribuovaných systémech a zajišťují, že síť dokáže dosáhnout shody i za přítomnosti škodlivých aktérů nebo vadných uzlů. Volba mechanismu konsenzu výrazně ovlivňuje výkon blockchainu, jeho bezpečnostní model a celkový návrh. Jak se tento obor vyvíjí, výzkumníci a vývojáři nadále zkoumají nové algoritmy konsenzu, aby řešili omezení stávajících modelů a splnili specifické potřeby různých blockchainových aplikací."
+}

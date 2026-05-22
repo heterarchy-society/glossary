@@ -1,0 +1,8 @@
+{
+  "source_hash": "03c414313b37e494",
+  "model": "gpt-5.5",
+  "translated_at": "2026-05-22T08:01:34.330Z",
+  "slug": "decentralizace",
+  "name": "Decentralizace",
+  "description": "Decentralizace je proces rozdělování moci, kontroly a funkcí od centrálních autorit směrem k síti jednotlivých účastníků. Ve své nejčistší podobě decentralizace odstraňuje jednotlivé body selhání nebo kontroly a vytváří systémy, které jsou odolnější, odolné vůči cenzuře a imunní vůči manipulaci. Tento koncept lze uplatnit v různých oblastech včetně technologií, organizací, ekonomik a společenských struktur.\n\nV technologických kontextech se decentralizace projevuje prostřednictvím [[peer-to-peer]] sítí, systémů [[blockchainu|blockchain]] a [[distribuovaných výpočtů|distributed computing]]. Tyto systémy fungují bez centrálních serverů nebo řídících entit a místo toho se spoléhají na sítě rovnocenných účastníků, kteří systém kolektivně udržují a ověřují. Mezi příklady patří [[Bitcoin]], [[IPFS]] a [[mesh sítě|mesh networks]], kde každý účastník přispívá k funkčnosti sítě a těží z ní, aniž by závisel na centrálních autoritách.\n\nMimo oblast technologií představuje decentralizace zásadní posun v tom, jak se mohou lidské systémy organizovat. Umožňuje [[sebesuverenitu|self-sovereignty]], kdy si jednotlivci zachovávají kontrolu nad vlastními daty, identitou a zdroji. Decentralizované modely [[správy|governance]], jako jsou [[DAO|DAOs]] (decentralizované autonomní organizace), ukazují, jak může kolektivní rozhodování probíhat bez hierarchických struktur. Tento přístup často vede k větším inovacím, odolnosti a posílení jednotlivců, zatímco snižuje rizika spojená s centralizovanými body selhání."
+}
