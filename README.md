@@ -3,7 +3,7 @@
 A curated glossary of terms for [The Heterarchy Society](https://heterarchy.cz). Source files are markdown with YAML frontmatter; a build script compiles them into static JSON deployed via GitHub Pages.
 
 - **Browse:** [heterarchy.fyi/glossary](https://heterarchy.fyi/glossary)
-- **API / bundle:** [glossary.heterarchy.fyi](https://glossary.heterarchy.fyi/)
+- **API / bundle:** [glossary.data.heterarchy.fyi](https://glossary.data.heterarchy.fyi/)
 
 ## Adding or editing terms
 
