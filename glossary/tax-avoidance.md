@@ -2,6 +2,8 @@
 imported: true
 name: Tax Avoidance
 type: concept
+keywords:
+  - Tax evasion
 ---
 
 Tax avoidance refers to the legal practice of arranging one's financial affairs to minimize tax liability within the bounds of the law. Unlike [[tax evasion]], which is illegal, tax avoidance utilizes legitimate methods to reduce tax obligations through careful financial planning, use of tax deductions, credits, and other legal mechanisms. This practice is commonly used by individuals and corporations as part of their financial strategy, though it often operates in a grey area between fully compliant tax practices and the [[shadow economy]].
