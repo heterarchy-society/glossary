@@ -72,6 +72,20 @@
     "resolvedLinks": {
       "type": "array"
     },
+    "history": {
+      "type": "array"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "email": { "type": "string" },
+          "avatar": { "type": "string" }
+        }
+      }
+    },
     "translations": {
       "type": "object",
       "additionalProperties": {
