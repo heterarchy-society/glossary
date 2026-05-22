@@ -2,6 +2,9 @@
 imported: true
 name: Whistleblowing
 type: concept
+keywords:
+  - whistleblower
+  - whistleblowers
 ---
 
 Whistleblowing is the act of exposing information about wrongdoing, unethical behavior, or illegal activities within an organization to internal authorities or the public. In the context of [[digital rights]] and [[transparency]], whistleblowing has become a crucial mechanism for holding powerful institutions accountable and protecting public interest. Notable whistleblowers like [[Edward Snowden]] and [[Chelsea Manning]] have used digital tools and encryption to safely expose classified information about government surveillance and military operations.
