@@ -1,3 +1,10 @@
+[collection]
+name = "glossary"
+source_dir = "glossary"
+format = "md"
+output_key = "terms"
+git_history = true
+
 [glossary]
 description = "A reference glossary for the parallel society."
 
