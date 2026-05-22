@@ -71,6 +71,20 @@
     },
     "resolvedLinks": {
       "type": "array"
+    },
+    "translations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "source_hash": { "type": "string" },
+          "model": { "type": "string" },
+          "translated_at": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
     }
   }
 }

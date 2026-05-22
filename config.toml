@@ -1,0 +1,11 @@
+[languages]
+default = "cs"
+
+[languages.cs]
+name = "Czech"
+
+[languages.de]
+name = "German"
+
+[languages.sk]
+name = "Slovak"
