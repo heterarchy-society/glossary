@@ -2,8 +2,8 @@
 
 A curated glossary of terms for [The Heterarchy Society](https://heterarchy.cz). Source files are markdown with YAML frontmatter; a build script compiles them into static JSON deployed via GitHub Pages.
 
-- **Browse:** [heterarchy.cz/glosar](https://heterarchy.cz/glosar)
-- **API / bundle:** [glossary.heterarchy.fyi](http://glossary.heterarchy.fyi/)
+- **Browse:** [heterarchy.fyi/glossary](https://heterarchy.fyi/glossary)
+- **API / bundle:** [glossary.heterarchy.fyi](https://glossary.heterarchy.fyi/)
 
 ## Adding or editing terms
 
@@ -44,9 +44,12 @@ Cross-reference other terms with [[wiki links]] or [[display text|term-id]] synt
 ## Development
 
 ```bash
-npm install
-npm test          # validate all source files against schema
-npm run build     # generate dist/ output
+bun install
+make test         # validate all source files against schema
+make build        # generate dist/ output
+make translate    # translate missing entries to Czech via Codex CLI
+make unresolved   # show unresolved [[wiki links]]
+make stale        # show translations with outdated source hash
 ```
 
 ## Output
@@ -54,6 +57,8 @@ npm run build     # generate dist/ output
 The build generates:
 - `dist/index.json` — all terms with metadata
 - `dist/terms/{id}.json` — individual term files
+- `dist/history/{id}.json` — per-term commit history with diffs
+- `dist/changelog.json` — all commits with referenced term changes
 - `dist/glossary.js` — ES module export
 
 ## Deployment
