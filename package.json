@@ -2,17 +2,14 @@
   "name": "heterarchy-glossary",
   "version": "1.0.0",
   "type": "module",
-  "description": "Heterarchy Society glossary - static JSON build",
+  "description": "Heterarchy Society glossary — data repository",
   "scripts": {
-    "build": "bun lib/build.js",
-    "validate": "bun lib/validate.js",
-    "test": "bun run validate"
+    "build": "atlas build",
+    "validate": "atlas validate",
+    "test": "atlas validate"
   },
   "dependencies": {
-    "ajv": "^8.17.1",
-    "ajv-formats": "^3.0.1",
-    "gray-matter": "^4.0.3",
-    "smol-toml": "^1.6.1"
+    "@heterarchy/atlas": "file:../atlas"
   },
   "license": "MIT"
 }
