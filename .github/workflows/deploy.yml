@@ -35,7 +35,16 @@ jobs:
 
       - name: Use latest Atlas
         if: github.event_name == 'repository_dispatch' || github.event_name == 'workflow_dispatch'
-        run: bun add @heterarchy/atlas@github:heterarchy-society/atlas
+        env:
+          ATLAS_REF: ${{ github.event.client_payload.atlas_ref || 'main' }}
+        run: |
+          rm -rf node_modules/@heterarchy/atlas
+          bun add --force @heterarchy/atlas@github:heterarchy-society/atlas#${ATLAS_REF}
+
+      - name: Show Atlas version
+        run: |
+          bunx atlas --help
+          node -e "console.log(require('./node_modules/@heterarchy/atlas/package.json'))"
 
       - name: Validate sources
         run: bun run test
