@@ -4,9 +4,10 @@
   "type": "module",
   "description": "Heterarchy Society glossary — data repository",
   "scripts": {
-    "build": "atlas build",
-    "validate": "atlas validate",
-    "test": "atlas validate"
+    "build": "heterarchy-atlas build",
+    "validate": "heterarchy-atlas validate",
+    "test": "heterarchy-atlas validate",
+    "translate": "heterarchy-atlas translate"
   },
   "dependencies": {
     "@heterarchy/atlas": "github:heterarchy-society/atlas"
