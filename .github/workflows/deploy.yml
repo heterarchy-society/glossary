@@ -43,7 +43,7 @@ jobs:
 
       - name: Show Atlas version
         run: |
-          bunx atlas --help
+          bunx heterarchy-atlas --help
           node -e "console.log(require('./node_modules/@heterarchy/atlas/package.json'))"
 
       - name: Validate sources
