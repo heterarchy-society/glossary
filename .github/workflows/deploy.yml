@@ -4,6 +4,8 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  repository_dispatch:
+    types: ["atlas-updated"]
 
 permissions:
   contents: read
@@ -30,6 +32,10 @@ jobs:
 
       - name: Install dependencies
         run: bun install
+
+      - name: Use latest Atlas
+        if: github.event_name == 'repository_dispatch'
+        run: bun add @heterarchy/atlas@github:heterarchy-society/atlas
 
       - name: Validate sources
         run: bun run test
