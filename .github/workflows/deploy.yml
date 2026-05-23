@@ -34,7 +34,7 @@ jobs:
         run: bun install
 
       - name: Use latest Atlas
-        if: github.event_name == 'repository_dispatch'
+        if: github.event_name == 'repository_dispatch' || github.event_name == 'workflow_dispatch'
         run: bun add @heterarchy/atlas@github:heterarchy-society/atlas
 
       - name: Validate sources
