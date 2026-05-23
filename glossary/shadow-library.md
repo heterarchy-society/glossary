@@ -2,7 +2,7 @@
 imported: true
 name: Shadow library
 type: concept
-ketwords:
+keywords:
   - shadow libraries
 resources:
   - title: Shadow Library on Wikipedia
