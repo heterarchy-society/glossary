@@ -1,0 +1,8 @@
+{
+  "source_hash": "84652d052e957824",
+  "model": "gpt-5.5",
+  "translated_at": "2026-05-24T05:31:21.545Z",
+  "slug": "zadni-vratka",
+  "name": "Zadní vrátka",
+  "description": "Zadní vrátka jsou záměrně skrytý mechanismus přístupu v softwaru, hardwaru nebo kryptografickém systému, který obchází standardní ověřování a umožňuje neoprávněný vstup. Mohou být vložena výrobcem na žádost vlády, podstrčena útočníkem prostřednictvím kompromitace dodavatelského řetězce, nebo existovat jako chyba záměrně ponechaná bez opravy. V kontextu šifrování byla zadní vrátka historicky prosazována pod eufemismy jako \"úschova klíčů\" nebo \"výjimečný přístup.\"\n\nV praxi zadní vrátka znamenají, že vedle legitimního klíče nebo cesty k datům existuje druhý klíč nebo cesta — ať už hlavní dešifrovací klíč držený třetí stranou, oslabený generátor náhodných čísel (případ Dual_EC_DRBG, kdy NSA v roce 2006 vložila předvídatelnost do standardu NIST), nebo skrytý servisní účet v síťovém zařízení. Zadní vrátka nerozlišují mezi oprávněnými a neoprávněnými uživateli: kdokoli ví, že existují, je může zneužít.\n\nVládní požadavky na zadní vrátka do [[šifrování|encryption]] jsou opakujícím se tématem [[krypto-válek|crypto-wars]]. Kryptografická komunita dlouhodobě tvrdí — a studie MIT \"Keys Under Doormats\" z roku 2015 to empiricky potvrdila — že je matematicky nemožné vybudovat zadní vrátka přístupná pouze \"správným\" autoritám: oslabení systému pro jednoho jej oslabuje pro všechny. Pro [[cypherpunkery|cypherpunks]] a tvůrce paralelních struktur je absence zadních vrátek předpokladem důvěry v jakýkoli nástroj."
+}
