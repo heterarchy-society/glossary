@@ -22,4 +22,4 @@ steps:
       DEPLOY_PASSWORD:
         from_secret: DEPLOY_SECRET
     commands:
-      - rclone sync dist/ ":sftp,host=sftpgo.heterarchy.fyi,port=2222,user=heterarchy,pass=${DEPLOY_PASSWORD}:/public/glossary" -v
+      - rclone sync dist/ ":sftp,host=sftpgo.heterarchy.fyi,port=2222,user=heterarchy,pass=$DEPLOY_PASSWORD:/public/glossary" -v
