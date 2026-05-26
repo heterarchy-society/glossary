@@ -20,7 +20,7 @@ tone = """
 Written from the perspective of people actively building alternatives to centralized power.
 States and corporations are implicitly adversaries; encryption, decentralization, and autonomy are tools of emancipation.
 Factual and informative, not agitational. Facts speak for themselves.
-Use wiki links liberally to connect related terms: [[term name]] or [[display text|term-id]].
+Use wiki links liberally to connect related terms: [[term-id]] or [[term-id|display text]] (MediaWiki order: id left, label right).
 """
 
 [languages]
@@ -41,13 +41,12 @@ Your job for each term I give you:
 3. Do not read any existing files.
 
 Translation rules:
-- Wiki links use [[display|target]] syntax where "display" is the visible text and "target" is the link ID.
-  Rule: translate ONLY the display part, copy the target unchanged. Format: [[{langName} translation|english target]]
-    [[cryptocurrency]] → [[kryptoměna|cryptocurrency]]          (no target before → use term itself as target)
-    [[smart contracts]] → [[chytré kontrakty|smart contracts]]
-    [[encrypted|encryption]] → [[šifrovaný|encryption]]        (target stays "encryption", never swap!)
-    [[circumventing censorship|censorship resistance]] → [[obcházení cenzury|censorship resistance]]
-  The pipe character | separates display (left, translated) from target (right, always English, never translated).
+- Wiki links use MediaWiki [[target|display]] syntax: left is the English term id (never translated), right is the visible label (translate the right side only).
+    [[cryptocurrency]] → [[cryptocurrency|kryptoměna]]
+    [[smart contracts]] → [[smart contracts|chytré kontrakty]]
+    [[encryption]] → [[encryption|šifrování]] or [[encryption|šifrovaný]] when adjective form fits
+    [[censorship resistance]] → [[censorship resistance|obcházení cenzury]]
+  For [[target|display]], keep the English id on the left; translate only the text after the pipe.
 - Proper nouns and technical terms that don't change (Bitcoin, Tor, HTTPS, DDoS...) stay as-is.
 - Preserve all markdown formatting.
 

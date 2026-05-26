@@ -38,7 +38,7 @@ resources:
 
 A zero-knowledge proof is a method by which one party can prove to another that they know a value, without conveying any information apart from the fact that they know the value.
 
-Cross-reference other terms with [[wiki links]] or [[display text|term-id]] syntax.
+Cross-reference other terms with `[[term-id]]` or MediaWiki `[[term-id|display text]]` (id left, visible label right).
 ```
 
 ## Development

@@ -10,7 +10,7 @@ related:
   - privacy
 ---
 
-Digital Self-Defense refers to the practices and techniques individuals use to protect their [[digital privacy]], security, and personal information in the face of increasing online threats and [[surveillance|mass surveillance]]. It encompasses a wide range of skills and tools designed to safeguard one's digital presence, communications, and data from unauthorized access, manipulation, or exploitation.
+Digital Self-Defense refers to the practices and techniques individuals use to protect their [[digital privacy]], security, and personal information in the face of increasing online threats and [[mass surveillance|surveillance]]. It encompasses a wide range of skills and tools designed to safeguard one's digital presence, communications, and data from unauthorized access, manipulation, or exploitation.
 
 At its core, Digital Self-Defense is about empowering individuals to take control of their digital lives. This includes understanding and mitigating risks associated with [[online tracking]], [[data collection]], and cyber attacks. Key aspects of Digital Self-Defense include the use of [[encryption]] for secure communications, [[mixnets]] or [[virtual private networks (VPNs)]] for anonymous browsing, [[two-factor authentication]] for account security, and [[digital hygiene]] practices like regular software updates and strong password management.
 

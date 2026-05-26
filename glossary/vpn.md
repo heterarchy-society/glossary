@@ -13,7 +13,7 @@ resources:
    url: https://www.privacytools.io/guides/vpn-protocols
 ---
 
-A Virtual Private Network (VPN) is a technology that encrypts internet traffic and routes it through remote servers, hiding the user's real IP address and geographic location from [[network surveillance|mass surveillance]]. VPNs create an [[encrypted|encryption]] tunnel between the user's device and the VPN server, preventing internet service providers, network operators, and other intermediaries from monitoring or interfering with the user's online activities.
+A Virtual Private Network (VPN) is a technology that encrypts internet traffic and routes it through remote servers, hiding the user's real IP address and geographic location from [[mass surveillance|network surveillance]]. VPNs create an [[encryption|encrypted]] tunnel between the user's device and the VPN server, preventing internet service providers, network operators, and other intermediaries from monitoring or interfering with the user's online activities.
 
 VPNs serve as a basic tool in the privacy toolset, enabling users to bypass network censorship, avoid geographic restrictions, and maintain a degree of anonymity online. When combined with other privacy technologies like [[Tor]], [[encryption]], and [[cryptocurrency]] payments, VPNs contribute to creating parallel communication infrastructures that resist surveillance and control.
 
