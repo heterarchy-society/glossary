@@ -43,7 +43,7 @@ jobs:
           node -e "console.log(require('./node_modules/@heterarchy-society/atlas/package.json'))"
 
       - name: Validate sources
-        run: bun run test
+        run: bun run validate
 
       - name: Build
         run: bun run build
