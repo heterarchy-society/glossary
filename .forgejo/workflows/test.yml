@@ -1,9 +1,0 @@
-# .forgejo/workflows/test.yml
-on: [push]
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Forgejo runner works"
-      - run: node --version

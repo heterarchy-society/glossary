@@ -9,8 +9,8 @@
     "test": "heterarchy-atlas validate",
     "translate": "heterarchy-atlas translate"
   },
+  "license": "MIT",
   "dependencies": {
-    "@heterarchy-society/atlas": "github:heterarchy-society/atlas#06abf5a"
-  },
-  "license": "MIT"
+    "@heterarchy-society/atlas": "^1.0.0"
+  }
 }

@@ -33,13 +33,9 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      - name: Use latest Atlas
+      - name: Update Atlas dependency
         if: github.event_name == 'repository_dispatch' || github.event_name == 'workflow_dispatch'
-        env:
-          ATLAS_REF: ${{ github.event.client_payload.atlas_ref || 'main' }}
-        run: |
-          rm -rf node_modules/@heterarchy-society/atlas
-          bun add --force @heterarchy-society/atlas@github:heterarchy-society/atlas#${ATLAS_REF}
+        run: bun update @heterarchy-society/atlas
 
       - name: Show Atlas version
         run: |
