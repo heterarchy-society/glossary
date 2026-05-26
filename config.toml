@@ -1,5 +1,6 @@
 [collection]
 name = "glossary"
+schema = "term.json"
 source_dir = "glossary"
 format = "md"
 output_key = "terms"
