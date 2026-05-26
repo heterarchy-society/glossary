@@ -1,4 +1,4 @@
-# Full git history + git binary required for atlas git_history (see .github/workflows deploy.yml fetch-depth: 0).
+# Full git history required for atlas git_history (see .github/workflows deploy.yml fetch-depth: 0).
 clone:
   git:
     image: woodpeckerci/plugin-git
@@ -16,7 +16,6 @@ steps:
   - name: build
     image: oven/bun:1
     commands:
-      #- apt-get update -qq && apt-get install -y -qq git
       - bun install --frozen-lockfile
       - bun run test
       - bun run build
