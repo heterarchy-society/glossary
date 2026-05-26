@@ -7,7 +7,7 @@ keywords:
   - whistleblowers
 ---
 
-Whistleblowing is the act of exposing information about wrongdoing, unethical behavior, or illegal activities within an organization to internal authorities or the public. In the context of [[digital rights]] and [[transparency]], whistleblowing has become a crucial mechanism for holding powerful institutions accountable and protecting public interest. Notable whistleblowers like [[Edward Snowden|people:edward-snowden]] and [[Chelsea Manning]] have used digital tools and encryption to safely expose classified information about government surveillance and military operations.
+Whistleblowing is the act of exposing information about wrongdoing, unethical behavior, or illegal activities within an organization to internal authorities or the public. In the context of [[digital rights]] and [[transparency]], whistleblowing has become a crucial mechanism for holding powerful institutions accountable and protecting public interest. Notable whistleblowers like [Edward Snowden](people:edward-snowden) and [[Chelsea Manning]] have used digital tools and encryption to safely expose classified information about government surveillance and military operations.
 
 The digital age has transformed whistleblowing through secure platforms like *SecureDrop* and [[WikiLeaks]], which use [[encryption]] and [[anonymity]] tools to protect sources. These platforms represent the intersection of [[cypherpunk]] ideals and journalistic practices, allowing whistleblowers to safely transmit sensitive information while protecting their identities from retaliation. The evolution of digital whistleblowing has been particularly important in exposing corporate fraud, government surveillance programs, and human rights violations.
 
