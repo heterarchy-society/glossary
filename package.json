@@ -10,7 +10,7 @@
     "translate": "heterarchy-atlas translate"
   },
   "dependencies": {
-    "@heterarchy/atlas": "github:heterarchy-society/atlas#ff8f0a4"
+    "@heterarchy/atlas": "github:heterarchy-society/atlas"
   },
   "license": "MIT"
 }
