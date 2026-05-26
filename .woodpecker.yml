@@ -1,0 +1,15 @@
+# Validate sources and build dist/ (same steps as .github/workflows/deploy.yml build job).
+when:
+  - event: push
+    branch: main
+  - event: pull_request
+  - event: manual
+
+steps:
+  - name: test-and-build
+    image: oven/bun:1
+    commands:
+      - apt-get update -qq && apt-get install -y -qq git ca-certificates
+      - bun install --frozen-lockfile
+      - bun run test
+      - bun run build
