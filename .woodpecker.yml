@@ -13,18 +13,13 @@ steps:
       - bun run build
 
   - name: deploy
-    image: appleboy/drone-scp
+    image: rclone/rclone:latest
     when:
       - event: push
         branch: main
     depends_on: [build]
-    settings:
-      host: sftpgo.heterarchy.fyi
-      port: 2222
-      username: heterarchy
-      key:
-        from_secret: DEPLOY_SSH_KEY
-      target: /public/glossary/
-      source: dist/**
-      strip_components: 1
-      rm: true
+    environment:
+      DEPLOY_PASSWORD:
+        from_secret: DEPLOY_SECRET
+    commands:
+      - rclone sync dist/ ":sftp,host=sftpgo.heterarchy.fyi,port=2222,user=heterarchy,pass=${DEPLOY_PASSWORD}:/public/glossary" -v
