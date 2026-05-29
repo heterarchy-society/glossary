@@ -2,13 +2,19 @@
 imported: true
 name: Fungibility
 type: concept
+related:
+  - cryptocurrency
+  - privacy-coins
+  - monero
+  - privacy
+  - zero-knowledge-proof
 resources:
-  - title: Fungibility - Wikipedia
+  - title: Wikipedia article "Fungibility"
     url: https://en.wikipedia.org/wiki/Fungibility
 ---
 
-Fungibility is a fundamental property of an asset or good that indicates its individual units are interchangeable and indistinguishable from one another. In economic terms, if an item is fungible, any unit of that item can be substituted for another unit without changing its value or utility. The classic example of a fungible asset is fiat currency - one dollar bill is equal to and interchangeable with any other dollar bill. This property is crucial for any asset that aims to serve as a medium of exchange or store of value.
+Fungibility is the property of an asset whose individual units are interchangeable and indistinguishable from one another. If an item is fungible, any unit can be substituted for another without changing its value or utility. The classic example is fiat currency — one dollar bill is equal to and interchangeable with any other. The property is essential for anything that aims to serve as money.
 
-In the context of [[cryptocurrency]], fungibility becomes particularly important when discussing [[privacy]] and the history of transactions. While [[Bitcoin]] is often considered fungible, its transparent blockchain can potentially make some coins less desirable if they have been associated with illegal activities or been blacklisted by exchanges, effectively reducing their fungibility. This has led to the development of [[privacy coins]] like [[Monero]] that emphasize true fungibility by making all transactions private and untraceable, ensuring that each coin remains indistinguishable from others.
+In a [[cryptocurrency]] context, fungibility becomes the central concern around [[privacy]] and transaction history. While [[bitcoin|Bitcoin]] is often described as fungible, its transparent blockchain can make some coins less desirable if they have been associated with illegal activity or blacklisted by exchanges — effectively breaking fungibility at the margin. This has driven the development of [[privacy-coins]] like [[monero|Monero]], which emphasise full fungibility by making all transactions private and untraceable by default, so no coin can be distinguished from any other by its history.
 
-The concept of fungibility intersects with many aspects of [[digital freedom]] and [[crypto-anarchism]]. When digital assets lack fungibility, it can lead to surveillance, censorship, and control through the tracking and blocking of specific units. This challenges the [[cypherpunk]] ideals of privacy and freedom in digital transactions. The quest for better fungibility has driven innovation in [[cryptography]] and privacy-enhancing technologies, leading to developments in [[zero-knowledge proofs]], [[ring signatures]], and other privacy-preserving mechanisms.
+Fungibility is where the cypherpunk argument about money becomes operational. When digital assets are not fungible, surveillance, censorship, and control become possible at the level of individual units — particular coins can be frozen, taxed, or refused. This is incompatible with the [[cypherpunk]] commitment to private exchange. The quest for stronger fungibility has driven much of the cryptographic state of the art — [[zero-knowledge-proof|zero-knowledge proofs]], ring signatures, confidential transactions — each closing one of the channels through which a coin's history could be reconstructed.

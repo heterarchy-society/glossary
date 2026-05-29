@@ -8,20 +8,16 @@ keywords:
 related:
   - cryptography
   - public-key-cryptography
-  - blockchain
-  - bitcoin
-  - byzantine-generals-problem
   - zero-knowledge-proof
-  - smart-contract
-  - decentralization
+  - byzantine-generals-problem
   - permissionless
 resources:
   - title: Wikipedia article "Trustless"
     url: https://en.wikipedia.org/wiki/Trustless
 ---
 
-"Trustless" is the slightly misleading term of art for systems whose correctness does not depend on trusting any particular party. A more accurate name is *trust-minimized*: every system has some trust assumptions baked in (the math is correct, the hardware is honest, the software does what it claims), but trust-minimized systems reduce those assumptions to as small and as easily verifiable a set as possible. The slogan "don't trust, verify" captures the discipline — wherever a fact can be checked independently, do not take it on someone's word.
+"Trustless" is the slightly misleading term of art for systems whose correctness does not depend on trusting any particular party. A more accurate name is *trust-minimised*: every system has some trust assumptions baked in (the math is correct, the hardware is honest, the software does what it claims), but trust-minimised systems reduce those assumptions to as small and verifiable a set as possible.
 
-The technique is cryptographic. A [[digital-signature|digital signature]] makes authorship verifiable without trusting the messenger. A [[blockchain]] makes transaction history verifiable without trusting an intermediary. A [[zero-knowledge-proof|zero-knowledge proof]] makes a computation's correctness verifiable without trusting the prover or seeing the inputs. A reproducible build makes the relationship between source code and binary verifiable without trusting the compiler operator. In each case, an act of trust is replaced by an act of arithmetic that anyone with the public values can perform.
+The slogan "don't trust, verify" captures the discipline — wherever a fact can be checked independently, do not take it on someone's word. The technique is cryptographic. A [[digital-signature|digital signature]] makes authorship verifiable without trusting the messenger. A [[blockchain]] makes transaction history verifiable without trusting an intermediary. A [[zero-knowledge-proof|zero-knowledge proof]] makes a computation's correctness verifiable without trusting the prover or seeing the inputs. A reproducible build makes the relationship between source and binary verifiable without trusting the compiler operator.
 
-For the parallel society, trust-minimization is the mechanism by which the [[cypherpunk]] vision becomes operational. [[Bitcoin]] solved the [[byzantine-generals-problem|Byzantine Generals Problem]] for money, replacing trusted issuers with [[proof-of-work]]. [[Tor]] minimizes trust in any single relay by routing through several. [[Foss|Open-source software]] minimizes trust in vendors by exposing the source. These are not techniques that eliminate trust — every choice still rests on some assumption — but they make the residual trust legible, narrow, and largely substitutable. That property is what makes [[permissionless]] infrastructure usable by people who do not know each other and have no reason to believe each other's claims.
+Trust-minimisation is the mechanism by which the [[cypherpunk]] vision becomes operational. [[bitcoin|Bitcoin]] solved the Byzantine Generals Problem for money, replacing trusted issuers with [[proof-of-work]]. [[tor|Tor]] minimises trust in any single relay by routing through several. Open-source software minimises trust in vendors by exposing the source. These are not techniques that eliminate trust — every choice still rests on some assumption — but they make the residual trust legible, narrow, and largely substitutable. That property is what makes [[permissionless]] infrastructure usable between strangers.
