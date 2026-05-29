@@ -2,15 +2,22 @@
 imported: true
 name: Distributed Manufacturing
 type: concept
+keywords:
+  - distributed production
+  - local manufacturing
+related:
+  - digital-fabrication
+  - open-hardware
+  - maker-culture
+  - appropriate-technology
+  - circular-economy
 resources:
-  - title: Distributed manufacturing - Wikipedia
+  - title: Wikipedia article "Distributed manufacturing"
     url: https://en.wikipedia.org/wiki/Distributed_manufacturing
-  - title: The Rise of Distributed Manufacturing
-    url: https://www.industryweek.com/technology-and-iiot/article/22027903/the-rise-of-distributed-manufacturing
 ---
 
-Distributed Manufacturing, also known as distributed production or local manufacturing, is a form of decentralized manufacturing system where products are manufactured close to their final destination using a network of geographically dispersed facilities connected through information technology. This approach stands in contrast to the traditional centralized manufacturing model where products are mass-produced in large factories and then shipped globally. The concept has gained significant momentum with the advent of [[3D printing]], [[digital fabrication]], and other [[Advanced Manufacturing]] technologies that enable small-scale, flexible production.
+Distributed manufacturing is a production model in which goods are made close to where they will be used, through a network of small, geographically dispersed facilities connected by information technology. It is the structural opposite of the twentieth-century model in which a small number of large factories produce at vast scale and ship globally. The connecting layer — designs, files, machine recipes — travels; the bulk material does not.
 
-The core principles of distributed manufacturing align closely with [[peer-to-peer]] networks and [[decentralization]] philosophies. By leveraging [[digital fabrication]] technologies like [[3D printing]], CNC machines, and laser cutting, communities can create local manufacturing hubs or [[makerspaces]] that produce goods on-demand. This model reduces transportation costs, decreases environmental impact, enables rapid prototyping, and allows for greater customization of products to meet local needs. It also promotes [[resilience]] by reducing dependency on global supply chains and creating redundancy in manufacturing capabilities.
+The concept moved from hypothesis to working practice with cheap [[digital-fabrication]] tools: 3D printers, CNC routers, laser cutters, and small-batch mills, paired with the open exchange of design files. Demonstration projects — RepRap (self-replicating 3D printers), FabLabs (the MIT-originated public fabrication network), and the broader [[maker-culture|maker movement]] — showed the model works at workshop scale. Industrial-scale versions in additive manufacturing and on-demand machining services pushed the same logic into commercial production.
 
-The movement intersects with various other concepts such as [[open-hardware|Open Source Hardware]], [[circular economy]], and [[Industry 4.0]]. It empowers individuals and communities to become producers rather than just consumers, fostering [[maker-culture|DIY culture]] and [[local resilience]]. Projects like *RepRap* (self-replicating 3D printers) and initiatives such as [[FabLabs]] demonstrate how distributed manufacturing can democratize production and enable communities to achieve greater self-sufficiency. This manufacturing paradigm is particularly relevant to *parallel structures* as it provides a framework for creating alternative production systems outside traditional industrial structures.
+For the parallel society, distributed manufacturing is the physical-goods counterpart to [[foss|free software]]: the design is the public artefact, the local node does the production, and supply chains shorten or disappear. It connects to [[open-hardware]], [[appropriate-technology|appropriate technology]], and the [[the-commons|commons]]-based production tradition. The realised version is more modest than the slogan — most physical goods still depend on globally-traded components and rare-earth supply chains that no makerspace can reproduce — but the model has held its shape: where designs are open and fabrication tools are local, the role of the centralised factory shrinks correspondingly.
