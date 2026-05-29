@@ -60,9 +60,9 @@ An entry should read like something a knowledgeable person shows you, not someth
 
 **Structure.** Three paragraphs, with deliberately different weights:
 
-1. **Lead (~60–100 words).** A self-contained definition. Open with the term itself so the sentence works standalone. Don't open with "This is…". This paragraph is shown on its own as a preview elsewhere on the site, so it has to make sense without the rest of the entry — keep wiki-links sparse here, and don't write sentences that depend on later context.
-2. **Body (~120–180 words).** Mechanism, history, key people. Where the term came from, how it works, what variations exist. Technical detail belongs here.
-3. **Heterarchy lens (~120–180 words).** How the term connects to living and organising without rulers — what it implies for parallel structures, sovereign tools, voluntary association. Not a sales pitch; context. Name tensions where they exist: tools of liberation become platforms, and the glossary shouldn't pretend otherwise.
+1. **Lead (~60–90 words).** A self-contained definition. Open with the term itself so the sentence works standalone. Don't open with "This is…". This paragraph is shown on its own as a preview elsewhere on the site, so it has to make sense without the rest of the entry — keep wiki-links sparse here, and don't write sentences that depend on later context.
+2. **Body (~100–140 words).** Mechanism, history, key people. Where the term came from, how it works, what variations exist. Technical detail belongs here.
+3. **Heterarchy lens (~100–140 words).** How the term connects to living and organising without rulers — what it implies for parallel structures, sovereign tools, voluntary association. Not a sales pitch; context. Name tensions where they exist: tools of liberation become platforms, and the glossary shouldn't pretend otherwise.
 
 If a term genuinely needs more depth, add a fourth paragraph rather than bloating the three.
 
@@ -75,8 +75,9 @@ If a term genuinely needs more depth, add a fourth paragraph rather than bloatin
 | Target | Syntax | Example |
 |--------|--------|---------|
 | Another glossary term | `[[term-id]]` or `[[term-id\|display text]]` | `[[bitcoin]]`, `[[peer-to-peer\|P2P]]` |
-| A person in the people dataset | `[Name](people:person-id)` | `[Satoshi Nakamoto](people:satoshi-nakamoto)` |
-| A writing in the writings dataset | `[Title](writings:writing-id)` | `[Bitcoin whitepaper](writings:bitcoin-whitepaper)` |
+| Any entry in another Heterarchy dataset | `[Label](collection:id)` | `[Satoshi Nakamoto](people:satoshi-nakamoto)`, `[Bitcoin whitepaper](writings:bitcoin-whitepaper)`, `[The Sovereign Individual](books:the-sovereign-individual)` |
+
+The `collection:` prefix matches the dataset name. Currently `people`, `writings`, `books`, and `talks` — see [heterarchy.fyi/open-data](https://heterarchy.fyi/open-data) for the full list as more datasets come online.
 
 For glossary links, pipe order is MediaWiki-style: `[[target|label]]` — left is the term id, right is what readers see. Link each term the first time it appears, not on every mention. Prefer linking concepts central to understanding the entry — typically 3–8 links per entry.
 
