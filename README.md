@@ -62,7 +62,7 @@ An entry should read like something a knowledgeable person shows you, not someth
 
 1. **Lead (~50–70 words).** A self-contained definition. Open with the term itself so the sentence works standalone. Don't open with "This is…". This paragraph is shown on its own as a preview elsewhere on the site, so it has to make sense without the rest of the entry — keep wiki-links sparse here, and don't write sentences that depend on later context.
 2. **Body (~75–95 words).** Mechanism, history, key people. Where the term came from, how it works, what variations exist. Technical detail belongs here.
-3. **Heterarchy lens (~75–95 words).** How the term connects to living and organising without rulers — what it implies for parallel structures, sovereign tools, voluntary association. Not a sales pitch; context. Name tensions where they exist: tools of liberation become platforms, and the glossary shouldn't pretend otherwise.
+3. **Heterarchy lens (~75–95 words).** How the term connects to living and organising without rulers — what it implies for parallel structures, sovereign tools, voluntary association. Not a sales pitch; context. Name tensions where they exist: tools of liberation become platforms, and the glossary shouldn't pretend otherwise. Avoid opening with formulaic anchors like *"For the parallel society,"* — vary how the connection is made (situate the term against an adjacent entry, name a tension, draw a parallel to another tradition, or start with the term itself in a new aspect).
 
 Aim for compression, not exhaustiveness. If a term genuinely needs more depth, add a fourth paragraph rather than bloating the three.
 

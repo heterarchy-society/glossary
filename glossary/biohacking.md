@@ -2,10 +2,24 @@
 imported: true
 name: Biohacking
 type: movement
+year: 2005
+keywords:
+  - DIY biology
+  - grinder movement
+  - lifestyle optimisation
+related:
+  - biopunk
+  - quantified-self
+  - citizen-science
+  - transhumanism
+  - human-augmentation
+resources:
+  - title: Wikipedia article "Biohacking"
+    url: https://en.wikipedia.org/wiki/Do-it-yourself_biology
 ---
 
-Biohacking is a broad movement focused on optimizing human biology and performance through technological and biological interventions. It encompasses various approaches, from DIY biology and self-experimentation to lifestyle optimization and technological augmentation. The term emerged in the early 2000s and has since grown into a global movement that combines elements of [[citizen science]], [[self-quantification]], and human enhancement.
+Biohacking is the broad DIY movement focused on understanding and improving human biology through interventions that range from diet, supplements, and wearable sensors to genetic experimentation and subdermal implants. It encompasses three loosely overlapping strands: lifestyle optimisation (data-driven self-experiment), DIY biology (wet-lab work outside institutions), and the grinder movement (body modification with implanted devices).
 
-The biohacking movement can be divided into several distinct but overlapping categories: DIY biology (conducting biological experiments outside traditional institutions), lifestyle optimization (using data and interventions to improve health and performance), and the [[grinder movement]] (body modification through technological implants). Practitioners range from citizen scientists working in community labs to individuals tracking their biomarkers and experimenting with supplements, diet, and exercise protocols to achieve optimal performance.
+The term emerged in the early 2000s and crystallised through community labs, Quantified Self meetups, and online forums. Lifestyle biohackers track biomarkers and test interventions on themselves; DIY biologists work in spaces like Genspace and BioCurious; grinders self-implant magnets, RFID chips, and biosensors. The movement draws on the long tradition of self-experimentation in medicine — Marie Curie, Barry Marshall, Albert Hofmann — but distinguishes itself by treating biological knowledge production as something anyone with discipline and basic equipment can do, not just a credentialed institution.
 
-The movement raises important questions about democratizing science, personal autonomy, and the future of human enhancement. While some biohackers focus on accessible health optimization through nutrition and lifestyle changes, others push boundaries with genetic experimentation and cybernetic implants. This has led to ongoing debates about safety, ethics, and regulation in the field. The movement intersects with other philosophies like [[transhumanism]] and has influenced discussions about the future of healthcare, scientific research, and human evolution.
+Like the cypherpunk wager that civilians should be able to do cryptography, biohacking bets that civilians should be able to do biology — and that the alternative, full institutional containment, is itself a political choice rather than a neutral safety default. The movement overlaps with [[biopunk]], the [[quantified-self|Quantified Self]] community, [[citizen-science]], and the broader [[transhumanism|transhumanist]] tradition. The tensions are real and unresolved: biosafety, dual-use research concerns, regulatory exposure, and the persistent gap between weekend experimenters and the kind of disciplined practice that produces durable results.
