@@ -11,6 +11,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@heterarchy-society/atlas": "^1.0.2"
+    "@heterarchy-society/atlas": "^1.0.3"
   }
 }
