@@ -1,6 +1,6 @@
 # Full git history required for atlas git_history.
-# Cache: https://github.com/drone-plugins/drone-meltwater-cache (plugins/cache)
-# Filesystem backend stores tarballs under /tmp/cache — bind-mount a host dir (repo must be trusted).
+# History cache lives on the agent at /var/lib/woodpecker/atlas-history-cache/{repo}/.
+# Requires trusted repo (volumes). Create once on the agent: mkdir -p /var/lib/woodpecker/atlas-history-cache
 clone:
   git:
     image: woodpeckerci/plugin-git
@@ -16,16 +16,12 @@ when:
 
 steps:
   - name: restore-history-cache
-    image: plugins/cache:1.10.7
+    image: alpine:3
     volumes:
-      - /var/lib/woodpecker/atlas-history-cache:/tmp/cache
-    settings:
-      backend: filesystem
-      restore: true
-      cache_key: history-${CI_REPO_NAME}
-      archive_format: gzip
-      mount:
-        - .atlas-cache/history
+      - /var/lib/woodpecker/atlas-history-cache:/cache
+    commands:
+      - mkdir -p .atlas-cache/history
+      - cp -a "/cache/${CI_REPO_NAME}/." .atlas-cache/history/ 2>/dev/null || true
 
   - name: build
     image: oven/bun:1
@@ -34,21 +30,18 @@ steps:
       - bun run validate
       - bun run build
 
-  - name: rebuild-history-cache
-    image: plugins/cache:1.10.7
-    volumes:
-      - /var/lib/woodpecker/atlas-history-cache:/tmp/cache
-    settings:
-      backend: filesystem
-      rebuild: true
-      cache_key: history-${CI_REPO_NAME}
-      archive_format: gzip
-      mount:
-        - .atlas-cache/history
+  - name: save-history-cache
+    image: alpine:3
     depends_on: [build]
     when:
       - event: push
         branch: main
+    volumes:
+      - /var/lib/woodpecker/atlas-history-cache:/cache
+    commands:
+      - mkdir -p "/cache/${CI_REPO_NAME}"
+      - rm -rf "/cache/${CI_REPO_NAME:?}/"*
+      - cp -a .atlas-cache/history/. "/cache/${CI_REPO_NAME}/"
 
   - name: deploy
     image: rclone/rclone:latest
