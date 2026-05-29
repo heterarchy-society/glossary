@@ -1,5 +1,6 @@
 # Full git history required for atlas git_history.
 # Cache: https://github.com/drone-plugins/drone-meltwater-cache (plugins/cache)
+# Filesystem backend stores tarballs under /tmp/cache — bind-mount a host dir (repo must be trusted).
 clone:
   git:
     image: woodpeckerci/plugin-git
@@ -16,10 +17,13 @@ when:
 steps:
   - name: restore-history-cache
     image: plugins/cache:1.10.7
+    volumes:
+      - /var/lib/woodpecker/atlas-history-cache:/tmp/cache
     settings:
       backend: filesystem
       restore: true
       cache_key: history-${CI_REPO_NAME}
+      archive_format: gzip
       mount:
         - .atlas-cache/history
 
@@ -32,10 +36,13 @@ steps:
 
   - name: rebuild-history-cache
     image: plugins/cache:1.10.7
+    volumes:
+      - /var/lib/woodpecker/atlas-history-cache:/tmp/cache
     settings:
       backend: filesystem
       rebuild: true
       cache_key: history-${CI_REPO_NAME}
+      archive_format: gzip
       mount:
         - .atlas-cache/history
     depends_on: [build]
