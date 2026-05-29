@@ -5,6 +5,13 @@ keywords:
   - parallel structures
   - parallel polis
   - paralelní polis
+related:
+  - vernacular
+  - conviviality
+  - radical-monopoly
+  - exit-and-voice
+  - counter-economics
+  - voluntary-association
 resources:
   - title: Wikipedia article "Parallel polis"
     url: https://en.wikipedia.org/wiki/Parallel_polis

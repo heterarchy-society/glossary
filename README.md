@@ -1,6 +1,8 @@
 # Heterarchy Glossary
 
-A curated glossary of terms for [The Heterarchy Society](https://heterarchy.cz). Source files are markdown with YAML frontmatter; a build script compiles them into static JSON deployed via GitHub Pages.
+A working vocabulary for [The Heterarchy Society](https://heterarchy.fyi) — a community around sovereign technologies, decentralised systems, and non-hierarchical forms of organisation. Each entry is a short, opinionated reference: what a term means, where it comes from, and what it has to do with the question of living and building without rulers.
+
+This is not a neutral encyclopedia. It is a shared map made by people exploring the same territory — to be read, edited, and forked. Source files are markdown with YAML frontmatter; a build script compiles them into static JSON deployed via GitHub Pages.
 
 - **Browse:** [heterarchy.fyi/glossary](https://heterarchy.fyi/glossary)
 - **API / bundle:** [glossary.data.heterarchy.fyi](https://glossary.data.heterarchy.fyi/)
@@ -43,7 +45,7 @@ Cross-reference other terms with `[[term-id]]` or MediaWiki `[[term-id|display t
 
 ## Writing guidelines
 
-This glossary is not a textbook. It's a shared map — built by people exploring the same territory, updated as understanding grows. An entry should read like something a knowledgeable person shows you, not something an institution publishes. Write as if you're pointing something out to someone curious, not certifying it for someone skeptical.
+An entry should read like something a knowledgeable person shows you, not something an institution publishes. Write as if you're pointing something out to someone curious, not certifying it for someone skeptical. Each entry does two jobs at once — the first paragraph stands on its own as a preview (used in search results, related-term cards, and link hovers), while the rest builds out the depth.
 
 ### Frontmatter
 
@@ -56,17 +58,17 @@ This glossary is not a textbook. It's a shared map — built by people exploring
 
 ### Body text
 
-**Structure.** Three paragraphs, roughly equal weight:
+**Structure.** Three paragraphs, with deliberately different weights:
 
-1. **What it is** — a plain definition. Open with the term itself so the sentence works standalone. Don't open with "This is…".
-2. **How it works or where it came from** — the mechanism, the history, the key people. Technical detail lives here.
-3. **Why it matters here** — how it connects to the question of living and organising without hierarchy. This isn't a sales pitch; it's context. Note tensions too — tools of liberation become platforms, and the glossary shouldn't pretend otherwise.
+1. **Lead (~60–100 words).** A self-contained definition. Open with the term itself so the sentence works standalone. Don't open with "This is…". This paragraph is shown on its own as a preview elsewhere on the site, so it has to make sense without the rest of the entry — keep wiki-links sparse here, and don't write sentences that depend on later context.
+2. **Body (~120–180 words).** Mechanism, history, key people. Where the term came from, how it works, what variations exist. Technical detail belongs here.
+3. **Heterarchy lens (~120–180 words).** How the term connects to living and organising without rulers — what it implies for parallel structures, sovereign tools, voluntary association. Not a sales pitch; context. Name tensions where they exist: tools of liberation become platforms, and the glossary shouldn't pretend otherwise.
+
+If a term genuinely needs more depth, add a fourth paragraph rather than bloating the three.
 
 **Tone.** Write from the inside, not from above. The glossary has a perspective — decentralisation, individual sovereignty, voluntary association — but that perspective shows in what you choose to explain and how, not in adjectives. Avoid the voice of the expert certifying facts; prefer the voice of someone who found something interesting and wants to share it clearly.
 
 **Tensions are worth noting.** Many of these technologies and ideas carry contradictions: surveillance tools repurposed for privacy, consensus mechanisms that consolidate power, philosophies that become orthodoxies. A good entry doesn't flatten these — it names them.
-
-**Length.** 80–150 words per paragraph. Shorter feels thin; longer loses focus. If a term needs more depth, add a fourth paragraph rather than bloating the three.
 
 **Cross-references.** Two syntaxes, depending on where the target lives:
 

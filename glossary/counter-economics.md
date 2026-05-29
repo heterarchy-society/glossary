@@ -4,6 +4,12 @@ name: Counter-economics
 type: concept
 keywords:
   - counter economics
+related:
+  - agorism
+  - radical-monopoly
+  - vernacular
+  - parallel-society
+  - voluntary-association
 resources:
   - title: Counter-Economics by Samuel Edward Konkin III
     url: https://www.amazon.com/Counter-Economics-Samuel-Edward-Konkin-III-ebook/dp/B07KM79V9B

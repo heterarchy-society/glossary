@@ -2,6 +2,12 @@
 imported: true
 name: Commons-based peer production
 type: concept
+related:
+  - vernacular
+  - conviviality
+  - open-source
+  - peer-to-peer
+  - mutualism
 resources:
   - title: Commons-based Peer Production - P2P Foundation
     url: https://wiki.p2pfoundation.net/Commons-Based_Peer_Production

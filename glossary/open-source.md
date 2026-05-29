@@ -5,6 +5,12 @@ keywords:
   - open-source
   - open source software
   - OSS
+related:
+  - conviviality
+  - vernacular
+  - peer-to-peer
+  - parallel-society
+  - decentralization
 resources:
   - title: Open Source Initiative
     url: https://opensource.org/
