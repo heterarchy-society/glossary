@@ -58,13 +58,13 @@ An entry should read like something a knowledgeable person shows you, not someth
 
 ### Body text
 
-**Structure.** Three paragraphs, with deliberately different weights:
+**Structure.** Three paragraphs, with deliberately different weights. Total length target: **200–250 words.**
 
-1. **Lead (~60–90 words).** A self-contained definition. Open with the term itself so the sentence works standalone. Don't open with "This is…". This paragraph is shown on its own as a preview elsewhere on the site, so it has to make sense without the rest of the entry — keep wiki-links sparse here, and don't write sentences that depend on later context.
-2. **Body (~100–140 words).** Mechanism, history, key people. Where the term came from, how it works, what variations exist. Technical detail belongs here.
-3. **Heterarchy lens (~100–140 words).** How the term connects to living and organising without rulers — what it implies for parallel structures, sovereign tools, voluntary association. Not a sales pitch; context. Name tensions where they exist: tools of liberation become platforms, and the glossary shouldn't pretend otherwise.
+1. **Lead (~50–70 words).** A self-contained definition. Open with the term itself so the sentence works standalone. Don't open with "This is…". This paragraph is shown on its own as a preview elsewhere on the site, so it has to make sense without the rest of the entry — keep wiki-links sparse here, and don't write sentences that depend on later context.
+2. **Body (~75–95 words).** Mechanism, history, key people. Where the term came from, how it works, what variations exist. Technical detail belongs here.
+3. **Heterarchy lens (~75–95 words).** How the term connects to living and organising without rulers — what it implies for parallel structures, sovereign tools, voluntary association. Not a sales pitch; context. Name tensions where they exist: tools of liberation become platforms, and the glossary shouldn't pretend otherwise.
 
-If a term genuinely needs more depth, add a fourth paragraph rather than bloating the three.
+Aim for compression, not exhaustiveness. If a term genuinely needs more depth, add a fourth paragraph rather than bloating the three.
 
 **Tone.** Write from the inside, not from above. The glossary has a perspective — decentralisation, individual sovereignty, voluntary association — but that perspective shows in what you choose to explain and how, not in adjectives. Avoid the voice of the expert certifying facts; prefer the voice of someone who found something interesting and wants to share it clearly.
 
