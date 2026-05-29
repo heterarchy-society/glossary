@@ -15,7 +15,7 @@ resources:
     url: https://en.wikipedia.org/wiki/Tools_for_Conviviality
 ---
 
-A radical monopoly exists when a single institutional form crowds out all other ways of meeting a need — not just other producers of the same kind, but the possibility of meeting the need outside that kind altogether. Cars do not just compete with bicycles; they remake cities so walking becomes impractical. Schools make non-credentialed knowledge invisible. [Ivan Illich](people:ivan-illich) named the concept in Tools for Conviviality (1973).
+A radical monopoly exists when a single institutional form crowds out all other ways of meeting a need — not just other producers of the same kind, but the possibility of meeting the need outside that kind altogether. Cars do not just compete with bicycles; they remake cities so walking becomes impractical. Schools make non-credentialed knowledge invisible. [Ivan Illich](people:ivan-illich) named the concept in [Tools for Conviviality](books:tools-for-conviviality) (1973).
 
 The distinction matters because antitrust thinking only sees the first kind. A market with several car manufacturers is competitive by economic measures, yet collectively those manufacturers hold a radical monopoly over mobility — alternatives are infeasible because the infrastructure has been reshaped around the product. Hospitals redefine illness so only medical intervention counts as healing. Schools redefine learning so only certified curricula count as education. The radical monopoly accumulates from a thousand individually rational choices to standardise around the dominant form.
 
