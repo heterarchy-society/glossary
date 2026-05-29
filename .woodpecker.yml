@@ -1,4 +1,5 @@
 # Full git history required for atlas git_history.
+# .atlas-cache/history is restored/rebuilt between runs for incremental history builds.
 clone:
   git:
     image: woodpeckerci/plugin-git
@@ -13,12 +14,34 @@ when:
   - event: manual
 
 steps:
+  - name: restore-history-cache
+    image: meltwater/drone-cache
+    settings:
+      backend: filesystem
+      restore: true
+      cache_key: history-{{ repo.name }}
+      mount:
+        - .atlas-cache/history
+
   - name: build
     image: oven/bun:1
     commands:
       - bun install --frozen-lockfile
       - bun run validate
       - bun run build
+
+  - name: rebuild-history-cache
+    image: meltwater/drone-cache
+    settings:
+      backend: filesystem
+      rebuild: true
+      cache_key: history-{{ repo.name }}
+      mount:
+        - .atlas-cache/history
+    depends_on: [build]
+    when:
+      - event: push
+        branch: main
 
   - name: deploy
     image: rclone/rclone:latest
